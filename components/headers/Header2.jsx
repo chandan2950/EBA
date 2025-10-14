@@ -18,7 +18,7 @@ export default function Header2() {
                       alt="eba-real estate"
                       width={272}
                       height={84}
-                      src="/images/logo/logo-3@2x.png"
+                      src="/images/brands/EBA tm logo.png"
                     />
                   </Link>
                 </div>
