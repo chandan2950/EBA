@@ -30,21 +30,40 @@ export default function page() {
         <ThemeController themeColor={"theme-color-1"} />
         <div id="wrapper">
           <Header2 />
-          <Hero />
+          <section id="home">
+            <Hero />
+          </section>
           <div className="main-content">
-            <WelcomeSection />
+            <section id="about">
+              <WelcomeSection />
+              <About />
+            </section>
 
-            <Agents />
-            <Services />
-            <Process />
-            <About />
+            <section id="team">
+              <Agents />
+            </section>
+            
+            <section id="services">
+              <Services />
+            </section>
+            
+            <section id="process">
+              <Process />
+            </section>
+            
             {/* <Categories /> */}
             <Facts />
             {/* <Cities /> */}
             <Testimonials />
             <Brands />
-            <Properties />
-            <Contact />
+            
+            <section id="projects">
+              <Properties />
+            </section>
+            
+            <section id="contact">
+              <Contact />
+            </section>
             {/* <Banner /> */}
             {/* <Blogs /> */}
           </div>
