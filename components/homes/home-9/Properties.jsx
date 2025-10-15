@@ -97,15 +97,14 @@ export default function Properties() {
                   <div className="content">
                     <div className="heading">
                       <div className="title text-13 text-color-heading fw-5 mb-13">
-                        Global Arena
+                      Gokul Mathura 
                       </div>
                       <p className="location text-1 flex text-color-default items-center">
-                        <i className="icon-location-5" /> Court Naka,
-                        Thane, Mumbai
+                        <i className="icon-location-5" /> Mulund East Mumbai 
                       </p>
                     </div>
                     <div className="info d-flex">
-                      <div className="item">
+                      {/* <div className="item">
                         <span className="number text-15 fw-2 text-color-heading">
                           4000 sq.ft
                         </span>
@@ -115,8 +114,8 @@ export default function Properties() {
                             Total Construction Area
                           </span>
                         </div>
-                      </div>
-                      <div className="item">
+                      </div> */}
+                      {/* <div className="item">
                         <span className="number text-15 fw-2 text-color-heading">
                           300
                         </span>
@@ -126,10 +125,10 @@ export default function Properties() {
                             Total Number of Tenant
                           </span>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="item">
                         <span className="number text-15 fw-2 text-color-heading">
-                          1,484
+                        1418.40 total Sq Meter 
                         </span>
                         <div className="box-icon d-flex gap-8 align-items-center">
                           <div>
@@ -170,7 +169,7 @@ export default function Properties() {
                       </div>
                     </div>
                     <div className="text-15 fw-2 text-color-heading">
-                      14 CR
+                      32 CR Project
                     </div>
                   </div>
                 </div>
@@ -196,15 +195,14 @@ export default function Properties() {
                   <div className="content">
                     <div className="heading">
                       <div className="title text-13 text-color-heading fw-5 mb-13">
-                        Global Arena
+                      ManiPushpa
                       </div>
                       <p className="location text-1 flex text-color-default items-center">
-                        <i className="icon-location-5" /> Court Naka,
-                        Thane, Mumbai
+                        <i className="icon-location-5" /> Panchpakhadi Thane West 
                       </p>
                     </div>
                     <div className="info d-flex">
-                      <div className="item">
+                      {/* <div className="item">
                         <span className="number text-14 fw-2 text-color-heading">
                           4000 sq.ft
                         </span>
@@ -214,8 +212,8 @@ export default function Properties() {
                             Total Construction Area
                           </span>
                         </div>
-                      </div>
-                      <div className="item">
+                      </div> */}
+                      {/* <div className="item">
                         <span className="number text-15 fw-2 text-color-heading">
                           300
                         </span>
@@ -225,10 +223,10 @@ export default function Properties() {
                             Total Number of Tenant
                           </span>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="item">
                         <span className="number text-15 fw-2 text-color-heading">
-                          1,484
+                        957.17 total Sq Meter 
                         </span>
                         <div className="box-icon d-flex gap-8 align-items-center">
                           <div>
@@ -269,7 +267,7 @@ export default function Properties() {
                       </div>
                     </div>
                     <div className="text-15 fw-2 text-color-heading">
-                      14 CR
+                      23 CR Project
                     </div>
                   </div>
                 </div>
@@ -288,7 +286,7 @@ export default function Properties() {
               </div>
             </div>
           </div>
-          <div className="box-listings style-3 element">
+          {/* <div className="box-listings style-3 element">
             <div className="tf-container">
               <div className="row">
                 <div className="col-lg-4 left">
@@ -485,7 +483,7 @@ export default function Properties() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
