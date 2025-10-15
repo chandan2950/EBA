@@ -9,6 +9,7 @@ import Categories from "@/components/homes/home-2/Categories";
 import Cities from "@/components/homes/home-2/Cities";
 import Facts from "@/components/homes/home-2/Facts";
 import Hero from "@/components/homes/home-2/Hero";
+import Process from "@/components/homes/home-2/Process";
 import Contact from "@/components/homes/home-7/Contact";
 import Services from "@/components/homes/home-8/Services";
 
@@ -31,17 +32,15 @@ export default function page() {
           <Header2 />
           <Hero />
           <div className="main-content">
-          <WelcomeSection />
-          
+            <WelcomeSection />
+
             <Agents />
             <Services />
+            <Process />
             <About />
-            
-           
-            <Categories />
-           
+            {/* <Categories /> */}
             <Facts />
-            <Cities />
+            {/* <Cities /> */}
             <Testimonials />
             <Brands />
             <Properties />

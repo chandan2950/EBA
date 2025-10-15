@@ -95,7 +95,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
                   <div className="content">
                     <div className="title text-1">Call us</div>
                     <h6>
-                      <a href="#"> (603) 555-0123</a>
+                      <a href="#"> +91 9236126874</a>
                     </h6>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
                   <div className="content">
                     <div className="title text-1">Need help?</div>
                     <h6 className="fw-4">
-                      <a href="#">Ebasupport@gmail.com</a>
+                      <a href="#">business@dmeba.in</a>
                     </h6>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
           </div>
           <div className="footer-main">
             <div className="row">
-              {footerData.map((column, index) => (
+              {/* {footerData.map((column, index) => (
                 <div className="col-lg-3 col-md-6" key={index}>
                   <div
                     className={`footer-menu-list footer-col-block ${
@@ -139,7 +139,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
                     </ul>
                   </div>
                 </div>
-              ))}
+              ))} */}
               {/* <div className="col-lg-3 col-md-6">
                 <div className="footer-menu-list newsletter ">
                   <h5 className="title lh-30 mb-19">Newsletter</h5>
@@ -281,7 +281,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
         <div className="col-12">
           <div className="footer-bottom">
             <p>
-              Copyright © {new Date().getFullYear()}{" "}
+              Copyright © 
               <span className="fw-7">2025 EBA — Experts Beyond Average</span> Development Management 
               <a href="#">Mumbai</a>
             </p>

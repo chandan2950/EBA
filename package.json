@@ -25,5 +25,9 @@
     "react-photoswipe-gallery": "^3.0.2",
     "sass": "^1.85.0",
     "swiper": "^11.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2"
   }
 }
