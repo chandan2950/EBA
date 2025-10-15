@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import axios from "axios";
 import { footerData } from "@/data/footerLinks";
-export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
+export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
   useEffect(() => {
     const headings = document.querySelectorAll(".title-mobile");
 
@@ -104,9 +104,9 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
                     <i className="icon-letter-2" />
                   </div>
                   <div className="content">
-                    <div className="title text-1">Nee live help</div>
+                    <div className="title text-1">Need help?</div>
                     <h6 className="fw-4">
-                      <a href="#">proty-support@gmail.com</a>
+                      <a href="#">Ebasupport@gmail.com</a>
                     </h6>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
                   </div>
                 </div>
               ))}
-              <div className="col-lg-3 col-md-6">
+              {/* <div className="col-lg-3 col-md-6">
                 <div className="footer-menu-list newsletter ">
                   <h5 className="title lh-30 mb-19">Newsletter</h5>
                   <div className="sib-form">
@@ -274,7 +274,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
                     </form>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -282,30 +282,24 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
           <div className="footer-bottom">
             <p>
               Copyright © {new Date().getFullYear()}{" "}
-              <span className="fw-7">PROTY - REAL ESTATE</span> . Designed &amp;
-              Developed by
-              <a href="#">Themesflat</a>
+              <span className="fw-7">2025 EBA — Experts Beyond Average</span> Development Management 
+              <a href="#">Mumbai</a>
             </p>
             <div className="wrap-social">
               <div className="text-3  fw-6 text_white">Follow us</div>
               <ul className="tf-social ">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/share/17PgSfzFfs">
                     <i className="icon-fb" />
                   </a>
-                </li>
+                </li>               
                 <li>
-                  <a href="#">
-                    <i className="icon-X" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/ebadmedgesolutions/">
                     <i className="icon-linked" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/ebadmedgesolutions?igsh=MWVyc3dqdTRmdXJycQ==">
                     <i className="icon-ins" />
                   </a>
                 </li>

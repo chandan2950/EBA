@@ -30,20 +30,18 @@ export default function Services() {
                 data-wow-delay="0s"
               >
                 <div className="tf-icon">
-                  <i className="icon-agent-2" />
+                  <i className="fa-solid fa-people-group" />
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="#">Find the Best Agent for You</a>
+                    <a href="#">Community Facilitation</a>
                   </h5>
                   <p className="text-1">
-                    Explore video tours, in-depth research, and articles on
-                    20,000 neighborhoods. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
+                  Organizing meetings, ensuring alignment through educational sessions & facilitating legal documentation.
                   </p>
-                  <a href="#" className="tf-btn-link color-3">
+                  {/* <a href="#" className="tf-btn-link color-3">
                     <span>Learn More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div
@@ -56,16 +54,17 @@ export default function Services() {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="#">Explore Great Neighborhoods</a>
+                    <a href="#">Financial Structuring</a>
                   </h5>
                   <p className="text-1">
-                    Explore video tours, in-depth research, and articles on
-                    20,000 neighborhoods. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
+                  
+Mobilizing initial capital & seed funding through various channels with structured drawdowns.
+
+
                   </p>
-                  <a href="#" className="tf-btn-link color-3">
+                  {/* <a href="#" className="tf-btn-link color-3">
                     <span>Learn More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div
@@ -78,16 +77,15 @@ export default function Services() {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="#">Find highly rated apartments</a>
+                    <a href="#"> Project Management</a>
                   </h5>
                   <p className="text-1">
-                    Explore video tours, in-depth research, and articles on
-                    20,000 neighborhoods. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
+                 
+                  Implementing construction schedule & monitoring progress with superior quality control.
                   </p>
-                  <a href="#" className="tf-btn-link color-3">
+                  {/* <a href="#" className="tf-btn-link color-3">
                     <span>Learn More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div
@@ -100,16 +98,60 @@ export default function Services() {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="#">Search Recent Property Sales</a>
+                    <a href="#">Legal Title Regularization</a>
                   </h5>
                   <p className="text-1">
-                    Explore video tours, in-depth research, and articles on
-                    20,000 neighborhoods. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
+                  
+                  Establishing clear ownership title & coordinating with SRA, MHADA, MCGM & relevant authorities.
                   </p>
-                  <a href="#" className="tf-btn-link color-3">
+                  {/* <a href="#" className="tf-btn-link color-3">
                     <span>Learn More</span>
-                  </a>
+                  </a> */}
+                </div>
+              </div>
+              <div
+                className="icons-box style-3 wow animate__zoomIn animate__animated"
+                data-wow-duration="1.5s"
+                data-wow-delay="0s"
+              >
+                <div className="tf-icon">
+                  <i className="icon-house-1" />
+                </div>
+                <div className="content">
+                  <h5 className="title">
+                    <a href="#"> Planning & Approvals</a>
+                  </h5>
+                  <p className="text-1">
+                 
+                  
+Engaging certified professionals for conceptual plans, layouts & liaising for all necessary approvals.
+                  </p>
+                  {/* <a href="#" className="tf-btn-link color-3">
+                    <span>Learn More</span>
+                  </a> */}
+                </div>
+              </div>
+              <div
+                className="icons-box style-3 wow animate__zoomIn animate__animated"
+                data-wow-duration="1.5s"
+                data-wow-delay="0s"
+              >
+                <div className="tf-icon">
+                  <i className="icon-house-1" />
+                </div>
+                <div className="content">
+                  <h5 className="title">
+                    <a href="#"> Final Handover</a>
+                  </h5>
+                  <p className="text-1">
+                 
+                  
+                  
+                  Facilitating OC issuance & ensuring each party receives equivalent benefits.
+                  </p>
+                  {/* <a href="#" className="tf-btn-link color-3">
+                    <span>Learn More</span>
+                  </a> */}
                 </div>
               </div>
             </div>

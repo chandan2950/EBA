@@ -25,7 +25,7 @@ export default function Hero() {
               <div className="heading-title">
                 <h1 className="title text-white">Your Reliable Guide in Nurturing Home</h1>
                 <p className="h6 fw-4 text-white">
-                  Thousands of luxury home enthusiasts just like you visit our website.
+                At EBA, we believe that giving someone a home is one of life’s greatest blessings. With care in every detail and integrity in every step, we nurture each stage of development to create not just houses, but welcoming communities where dreams take root and lives flourish.
                 </p>
               </div>
             </div>

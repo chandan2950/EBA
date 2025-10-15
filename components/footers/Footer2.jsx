@@ -84,7 +84,7 @@ export default function Footer2({ parentClass = "" }) {
                     alt="logo-footer"
                     width={272}
                     height={85}
-                    src="/images/logo/logo-2@2x.png"
+                    src="/images/brands/EBA tm logo.png"
                   />
                 </Link>
               </div>

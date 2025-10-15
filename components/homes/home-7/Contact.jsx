@@ -78,7 +78,7 @@ export default function Contact() {
                   href="#"
                   className="tf-btn bg-color-primary pd-26 btn-border rounded-cycle"
                 >
-                  Contact our experts
+                  Contact Us
                   <i className="icon-arrow-up-right" />
                 </a>
               </div>

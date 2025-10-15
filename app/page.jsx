@@ -10,6 +10,7 @@ import Cities from "@/components/homes/home-2/Cities";
 import Facts from "@/components/homes/home-2/Facts";
 import Hero from "@/components/homes/home-2/Hero";
 import Contact from "@/components/homes/home-7/Contact";
+import Services from "@/components/homes/home-8/Services";
 
 import Testimonials from "@/components/homes/home-9/Testimonials";
 import About from "@/components/homes/home-9/About";
@@ -30,21 +31,25 @@ export default function page() {
           <Header2 />
           <Hero />
           <div className="main-content">
-            <Brands />
+          <WelcomeSection />
+          
             <Agents />
+            <Services />
             <About />
-            <WelcomeSection />
-            <Properties />
+            
+           
             <Categories />
            
             <Facts />
             <Cities />
             <Testimonials />
+            <Brands />
+            <Properties />
             <Contact />
             {/* <Banner /> */}
             {/* <Blogs /> */}
           </div>
-          <Footer1 logo="/images/logo/logo-3@2x.png" />
+          <Footer1 logo="/images/brands/EBA tm logo.png" />
         </div>
       </div>
     </>
