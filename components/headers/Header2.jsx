@@ -35,7 +35,7 @@ export default function Header2() {
                       onClick={() => {
                         try {
                           // Use the correct filename with trailing space
-                          const fileName = "/images/home/EBA BROCHURE .pdf";
+                          const fileName = "/images/home/EBA BROCHURE.pdf";
                           
                           // Simple and reliable download method
                           const link = document.createElement("a");
@@ -52,7 +52,7 @@ export default function Header2() {
                         } catch (error) {
                           console.error("Download failed:", error);
                           // Fallback: open in new tab
-                          window.open("/images/home/EBA BROCHURE .pdf", "_blank");
+                          window.open("/images/home/EBA BROCHURE.pdf", "_blank");
                         }
                       }}
                     >
@@ -68,7 +68,7 @@ export default function Header2() {
                         />
                       </svg>
                       <span className="btn-text-full">Download Brochure</span>
-                      <span className="btn-text-short">Download</span>
+                      <span className="btn-text-short">Brochure</span>
                     </button>
                     
                     <style jsx>{`

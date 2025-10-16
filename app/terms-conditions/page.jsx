@@ -123,7 +123,7 @@ export default function TermsConditions() {
             </section>
           </div>
           
-          <Footer1 logo="/images/brands/EBA tm logo.png" />
+          {/* <Footer1 logo="/images/brands/EBA tm logo.png" /> */}
         </div>
       </div>
     </>

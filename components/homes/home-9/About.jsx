@@ -44,7 +44,7 @@ export default function About() {
                     <Image
                       className="lazyload"
                       data-src="/images/home/mission.jpeg"
-                      alt="Mission - EBA Real Estate"
+                      alt="Mission - EBA Development Management"
                       src="/images/home/mission.jpeg"
                       width={620}
                       height={509}
@@ -62,14 +62,14 @@ export default function About() {
                           </defs>
                           <text>
                             <textPath xlinkHref="#textcircle" textLength={900}>
-                              EBA Real Estste
+                              EBA Development Management
                             </textPath>
                           </text>
                         </svg>
                       </div>
                       <a
                         className="video-icon popup-youtube"
-                        onClick={() => setIsOpen(true)}
+                        // onClick={() => setIsOpen(true)}
                       >
                         <i aria-hidden="true" className="icon-play-1" />
                       </a>

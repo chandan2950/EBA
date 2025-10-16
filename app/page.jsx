@@ -54,7 +54,7 @@ export default function page() {
             {/* <Categories /> */}
             {/* <Facts /> */}
             {/* <Cities /> */}
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Brands />
             
             <section id="projects">
