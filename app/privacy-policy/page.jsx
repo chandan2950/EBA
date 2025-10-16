@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
                       </h1>
                       
                       <div style={{ lineHeight: '1.8', color: '#333' }}>
-                        <p style={{ marginBottom: '20px', fontSize: '16px' }}>
+                        <p style={{ marginBottom: '20px', fontSize: '16px',textAlign: "justify" }}>
                           At <strong>EBA (Experts Beyond Average)</strong>, we respect your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you interact with our website, services, or team.
                         </p>
 
@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
                         <p style={{ marginBottom: '15px' }}>
                           We may collect the following information when you visit or engage with us:
                         </p>
-                        <ul style={{ marginBottom: '20px', paddingLeft: '20px' }}>
+                        <ul style={{ marginBottom: '20px', paddingLeft: '20px',textAlign: "justify" }}>
                           <li>Personal details such as your name, phone number, email address, and project-related information.</li>
                           <li>Data submitted through inquiry forms, consultation requests, or newsletters.</li>
                           <li>Usage data such as IP address, browser type, and website activity (for analytics purposes).</li>
@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
                         <p style={{ marginBottom: '15px' }}>
                           We use your information to:
                         </p>
-                        <ul style={{ marginBottom: '20px', paddingLeft: '20px' }}>
+                        <ul style={{ marginBottom: '20px', paddingLeft: '20px',textAlign: "justify" }}>
                           <li>Respond to your inquiries and provide requested services.</li>
                           <li>Offer project-related consultations or updates.</li>
                           <li>Improve our website's functionality and user experience.</li>
@@ -70,14 +70,14 @@ export default function PrivacyPolicy() {
                         <h3 style={{ color: '#FF6B35', marginTop: '30px', marginBottom: '15px' }}>
                           3. Data Security
                         </h3>
-                        <p style={{ marginBottom: '20px' }}>
+                        <p style={{ marginBottom: '20px',textAlign: "justify" }}>
                           We employ appropriate administrative, technical, and physical safeguards to protect your personal information from unauthorized access, misuse, or disclosure.
                         </p>
 
                         <h3 style={{ color: '#FF6B35', marginTop: '30px', marginBottom: '15px' }}>
                           4. Sharing of Information
                         </h3>
-                        <p style={{ marginBottom: '20px' }}>
+                        <p style={{ marginBottom: '20px',textAlign: "justify" }}>
                           EBA does not sell or rent personal information. Data may only be shared with trusted partners, consultants, or authorities directly involved in your project — and only as required for legal or operational purposes.
                         </p>
 
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
                         <h3 style={{ color: '#FF6B35', marginTop: '30px', marginBottom: '15px' }}>
                           6. Policy Updates
                         </h3>
-                        <p style={{ marginBottom: '20px' }}>
+                        <p style={{ marginBottom: '20px',textAlign: "justify" }}>
                           EBA may update this Privacy Policy from time to time. Changes will be reflected on this page with the updated effective date.
                         </p>
 
@@ -116,7 +116,7 @@ export default function PrivacyPolicy() {
             </section>
           </div>
           
-          <Footer1 logo="/images/brands/EBA tm logo.png" />
+          
         </div>
       </div>
     </>

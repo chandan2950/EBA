@@ -282,15 +282,26 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
           <div className="footer-bottom">
             <div className="footer-copyright">
               <p>
-                Copyright © 
-                <span className="fw-7">2025 EBA — Experts Beyond Average</span> Development Management 
+                Copyright ©
+                <span className="fw-7">2025 EBA — Experts Beyond Average</span>{" "}
+                Development Management
                 <a href="#">Mumbai</a>
               </p>
-              <div className="footer-legal-links" style={{ marginTop: '10px' }}>
-                <Link href="/privacy-policy" style={{ color: '#fff', textDecoration: 'none', marginRight: '20px' }}>
+              <div className="footer-legal-links" style={{ marginTop: "10px" }}>
+                <Link
+                  href="/privacy-policy"
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                    marginRight: "20px",
+                  }}
+                >
                   Privacy Policy
                 </Link>
-                <Link href="/terms-conditions" style={{ color: '#fff', textDecoration: 'none' }}>
+                <Link
+                  href="/terms-conditions"
+                  style={{ color: "#fff", textDecoration: "none" }}
+                >
                   Terms & Conditions
                 </Link>
               </div>
@@ -302,7 +313,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
                   <a href="https://www.facebook.com/share/17PgSfzFfs">
                     <i className="icon-fb" />
                   </a>
-                </li>               
+                </li>
                 <li>
                   <a href="https://www.linkedin.com/company/ebadmedgesolutions/">
                     <i className="icon-linked" />

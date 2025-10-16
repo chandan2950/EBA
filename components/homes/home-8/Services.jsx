@@ -30,7 +30,7 @@ export default function Services() {
                 data-wow-delay="0s"
               >
                 <div className="tf-icon">
-                  <i className="fa-solid fa-people-group" />
+                  <i className="icon-agent-2" />
                 </div>
                 <div className="content">
                   <h5 className="title">

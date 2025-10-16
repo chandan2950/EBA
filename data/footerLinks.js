@@ -12,7 +12,7 @@ export const footerData = [
     className: "style-2",
   },
   {
-    title: "Popular house",
+    title: "Services",
     links: [
       { text: "#Penthouses", href: "/property-gird" },
       { text: "#Villa", href: "/property-gird" },
@@ -23,7 +23,7 @@ export const footerData = [
     ],
   },
   {
-    title: "Quick links",
+    title: "Projects",
     links: [
       { text: "Terms of use", href: "#" },
       { text: "Privacy policy", href: "#" },

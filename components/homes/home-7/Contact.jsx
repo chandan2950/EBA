@@ -142,7 +142,7 @@ export default function Contact() {
                     border: "1px solid #c3e6cb",
                   }}
                 >
-                  ✅ Thank you! Your message has been sent successfully.
+                  ✅ Thank you! Your message has been sent successfully Our Team will Connect with you Soon!!.
                 </div>
               )}
 

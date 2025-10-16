@@ -44,37 +44,55 @@ export default function WelcomeSection() {
                   Turning Land into Opportunity, Creating Homes with Care.
                 </p>
                 <p
-                  className="text-1 text-color-default wow animate__fadeInUp animate__animated"
+                style={{ textAlign: "justify" }}
+                  className="text-1 text-color-default  wow animate__fadeInUp animate__animated"
                   data-wow-duration="1.5s"
                   data-wow-delay="0s"
                 >
-                  At EBA (Experts Beyond Average), we are more than just Development Managers we are your reliable partners in turning land into opportunity.
-With deep expertise in housing, slum, MHADA, and open plot redevelopment projects, we provide end-to-end Development Management Services designed to simplify complexity, ensure transparency, and maximize value for every stakeholder.
-
+                  At EBA (Experts Beyond Average), we are more than just
+                  Development Managers we are your reliable partners in turning
+                  land into opportunity. With deep expertise in housing, slum,
+                  MHADA, and open plot redevelopment projects, we provide
+                  end-to-end Development Management Services designed to
+                  simplify complexity, ensure transparency, and maximize value
+                  for every stakeholder.
                 </p>
                 <p
+                style={{ textAlign: "justify" }}
                   className="text-1 text-color-default wow animate__fadeInUp animate__animated"
                   data-wow-duration="1.5s"
                   data-wow-delay="0s"
                 >
-                  Headquartered in Mumbai, EBA brings together a team of experienced professionals from technical, legal, financial, and architectural backgrounds. We work hand-in-hand with housing societies, developers, and landowners to manage the entire redevelopment journey from feasibility and funding to design, execution, and handover.
-
+                  Headquartered in Mumbai, EBA brings together a team of
+                  experienced professionals from technical, legal, financial,
+                  and architectural backgrounds. We work hand-in-hand with
+                  housing societies, developers, and landowners to manage the
+                  entire redevelopment journey from feasibility and funding to
+                  design, execution, and handover.
                 </p>
                 <p
+                style={{ textAlign: "justify" }}
                   className="text-1 text-color-default wow animate__fadeInUp animate__animated"
                   data-wow-duration="1.5s"
                   data-wow-delay="0s"
                 >
-                  Our philosophy is rooted in trust, integrity, and care. Every project we undertake is not just a structure, but a community in the making built with precision, guided by compliance, and driven by a shared purpose of creating homes that stand the test of time.
-
+                  Our philosophy is rooted in trust, integrity, and care. Every
+                  project we undertake is not just a structure, but a community
+                  in the making built with precision, guided by compliance, and
+                  driven by a shared purpose of creating homes that stand the
+                  test of time.
                 </p>
                 <p
+                style={{ textAlign: "justify" }}
                   className="text-1 text-color-default wow animate__fadeInUp animate__animated"
                   data-wow-duration="1.5s"
                   data-wow-delay="0s"
                 >
-                  At EBA, we believe that giving someone a home is one of life’s greatest blessings. That’s why we nurture every stage of development with empathy, professionalism, and accountability ensuring that every family, member, and partner finds confidence and peace of mind throughout the process.
-
+                  At EBA, we believe that giving someone a home is one of life’s
+                  greatest blessings. That’s why we nurture every stage of
+                  development with empathy, professionalism, and accountability
+                  ensuring that every family, member, and partner finds
+                  confidence and peace of mind throughout the process.
                 </p>
               </div>
               {/* <ul className="list d-flex flex-column gap-12 mb-32">

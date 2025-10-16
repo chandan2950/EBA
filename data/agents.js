@@ -129,7 +129,7 @@ export const agents4 = [
     id: 20,
     imageSrc: "/images/home/Rajiv.jpg",
     name: "Rajiv Darji",
-    role: "Assistant Partner",
+    role: "True believer",
     wowClass: "",
   },
   {
