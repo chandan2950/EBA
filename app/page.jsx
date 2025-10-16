@@ -20,8 +20,8 @@ import WelcomeSection from "@/components/homes/home-8/WelcomeSection";
 import React from "react";
 
 export const metadata = {
-  title: "EBA- Real Estate",
-  description: "EBA- Real Estate",
+  title: "EBA-Development Management",
+  description: "EBA-Development Management",
 };
 export default function page() {
   return (

@@ -135,19 +135,30 @@ export default function Header2() {
                     `}</style>
                   </div>
                   <div className="btn-add">
-                    <Link
+                    <button
                       className="tf-btn pd-23"
-                      href="/contact"
+                      onClick={() => {
+                        const element = document.getElementById('contact');
+                        if (element) {
+                          const headerHeight = 80;
+                          const elementPosition = element.offsetTop - headerHeight;
+                          
+                          window.scrollTo({
+                            top: elementPosition,
+                            behavior: 'smooth'
+                          });
+                        }
+                      }}
                       style={{
                         backgroundColor: "#2C5F41",
                         color: "white",
                         border: "none",
                         borderRadius: "5px",
-                        textDecoration: "none",
+                        cursor: "pointer",
                       }}
                     >
                       Book Consultancy
-                    </Link>
+                    </button>
                   </div>
                   <div
                     className="mobile-button"

@@ -21,8 +21,22 @@ export default function Agents() {
                 
               </p> */}
             </div>
-            <div className="tf-grid-layout-2 md-col-4 mb-48 agents-container">
+            <div className="agents-container">
               <style jsx>{`
+                .agents-container {
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr);
+                  gap: 30px;
+                  margin-bottom: 48px;
+                }
+                
+                @media (max-width: 1024px) {
+                  .agents-container {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 20px;
+                  }
+                }
+                
                 @media (max-width: 768px) {
                   .agents-container {
                     display: flex !important;
@@ -30,6 +44,7 @@ export default function Agents() {
                     gap: 20px;
                     padding-bottom: 10px;
                     scroll-snap-type: x mandatory;
+                    grid-template-columns: none;
                   }
                   .agents-container::-webkit-scrollbar {
                     height: 6px;
@@ -52,7 +67,7 @@ export default function Agents() {
                   }
                 }
               `}</style>
-              {agents4.map((agent) => (
+              {agents4.slice(0, 6).map((agent) => (
                 <div
                   className={`agent-item hover-img mobile-agent-card ${agent.wowClass}`}
                   key={agent.id}
@@ -83,7 +98,7 @@ export default function Agents() {
                         }}
                       />
                     </Link>
-                    <ul className="tf-social style-3">
+                    {/* <ul className="tf-social style-3">
                       <li>
                         <a href="#">
                           <i className="icon-fb" />
@@ -104,7 +119,7 @@ export default function Agents() {
                           <i className="icon-ins" />
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                   <div className="content">
                     <div className="author">
@@ -115,14 +130,14 @@ export default function Agents() {
                       </h5>
                       <p className="text-2 lh-18">{agent.role}</p>
                     </div>
-                    <div className="wrap-btn-icon">
+                    {/* <div className="wrap-btn-icon">
                       <a href="#" className="btn-icon">
                         <i className="icon-phone-3" />
                       </a>
                       <a href="#" className="btn-icon">
                         <i className="icon-letter" />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}
