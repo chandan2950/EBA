@@ -12,14 +12,14 @@ export default function Agents() {
           <div className="col-12">
             <div className="heading-section mb-48 text-center">
               <h2 className="title split-text effect-right">
-                <SplitTextAnimation text="Raising Standards, Building Futures- Expert Beyond Average Our Official Onboard Team" />
+                <SplitTextAnimation text="Raising Standards, Building Futures" />
               </h2>
-              {/* <p className="text-1 split-text split-lines-transform">
-                
+              <p className="text-1 split-text split-lines-transform">
+              Expert Beyond Average
               </p>
               <p className="text-1 split-text split-lines-transform">
-                
-              </p> */}
+              Our Official Onboard Team
+              </p>
             </div>
             <div className="agents-container">
               <style jsx>{`
