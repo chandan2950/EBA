@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,10 +21,40 @@ export default function Agents() {
                 
               </p> */}
             </div>
-            <div className="tf-grid-layout-2 md-col-4 mb-48">
+            <div className="tf-grid-layout-2 md-col-4 mb-48 agents-container">
+              <style jsx>{`
+                @media (max-width: 768px) {
+                  .agents-container {
+                    display: flex !important;
+                    overflow-x: auto;
+                    gap: 20px;
+                    padding-bottom: 10px;
+                    scroll-snap-type: x mandatory;
+                  }
+                  .agents-container::-webkit-scrollbar {
+                    height: 6px;
+                  }
+                  .agents-container::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                    border-radius: 3px;
+                  }
+                  .agents-container::-webkit-scrollbar-thumb {
+                    background: #888;
+                    border-radius: 3px;
+                  }
+                  .agents-container::-webkit-scrollbar-thumb:hover {
+                    background: #555;
+                  }
+                  .mobile-agent-card {
+                    min-width: 280px;
+                    flex-shrink: 0;
+                    scroll-snap-align: start;
+                  }
+                }
+              `}</style>
               {agents4.map((agent) => (
                 <div
-                  className={`agent-item hover-img ${agent.wowClass}`}
+                  className={`agent-item hover-img mobile-agent-card ${agent.wowClass}`}
                   key={agent.id}
                   style={{
                     display: 'flex',

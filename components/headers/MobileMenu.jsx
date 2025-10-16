@@ -14,19 +14,39 @@ export default function MobileMenu() {
       const headerHeight = 80;
       const elementPosition = element.offsetTop - headerHeight;
 
-      window.scrollTo({
-        top: elementPosition,
-        behavior: "smooth",
-      });
-
-      // Close mobile menu after clicking
+      // Close mobile menu first
       const offcanvas = document.getElementById("menu-mobile");
       if (offcanvas) {
+        // Try multiple methods to close the offcanvas
         const bsOffcanvas = window.bootstrap?.Offcanvas?.getInstance(offcanvas);
         if (bsOffcanvas) {
           bsOffcanvas.hide();
+        } else {
+          // Fallback: trigger the close button
+          const closeBtn = offcanvas.querySelector('[data-bs-dismiss="offcanvas"]');
+          if (closeBtn) {
+            closeBtn.click();
+          }
         }
+        
+        // Alternative method: remove Bootstrap classes manually
+        setTimeout(() => {
+          offcanvas.classList.remove('show');
+          document.body.classList.remove('offcanvas-open');
+          const backdrop = document.querySelector('.offcanvas-backdrop');
+          if (backdrop) {
+            backdrop.remove();
+          }
+        }, 100);
       }
+
+      // Scroll after a short delay to ensure menu is closing
+      setTimeout(() => {
+        window.scrollTo({
+          top: elementPosition,
+          behavior: "smooth",
+        });
+      }, 300);
     }
   };
   return (

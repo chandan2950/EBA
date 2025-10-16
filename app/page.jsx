@@ -6,8 +6,8 @@ import Banner from "@/components/homes/home-2/Banner";
 import Blogs from "@/components/homes/home-2/Blogs";
 import Brands from "@/components/homes/home-2/Brands";
 import Categories from "@/components/homes/home-2/Categories";
-import Cities from "@/components/homes/home-2/Cities";
-import Facts from "@/components/homes/home-2/Facts";
+// import Cities from "@/components/homes/home-2/Cities";
+// import Facts from "@/components/homes/home-2/Facts";
 import Hero from "@/components/homes/home-2/Hero";
 import Process from "@/components/homes/home-2/Process";
 import Contact from "@/components/homes/home-7/Contact";
@@ -52,7 +52,7 @@ export default function page() {
             </section>
             
             {/* <Categories /> */}
-            <Facts />
+            {/* <Facts /> */}
             {/* <Cities /> */}
             <Testimonials />
             <Brands />
