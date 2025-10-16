@@ -25,16 +25,31 @@ export default function Agents() {
                 <div
                   className={`agent-item hover-img ${agent.wowClass}`}
                   key={agent.id}
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    height: '100%'
+                  }}
                 >
-                  <div className="image-wrap">
+                  <div className="image-wrap" style={{ 
+                    position: 'relative',
+                    overflow: 'hidden',
+                    borderRadius: '8px'
+                  }}>
                     <Link href={`/agents-details/${agent.id}`}>
                       <Image
-                        className="lazyload"
+                        className="lazyload agent-image"
                         data-src={agent.imageSrc}
                         alt=""
                         width={435}
                         height={585}
                         src={agent.imageSrc}
+                        style={{
+                          width: '100%',
+                          height: '400px',
+                          objectFit: 'cover',
+                          objectPosition: 'center top'
+                        }}
                       />
                     </Link>
                     <ul className="tf-social style-3">

@@ -13,14 +13,14 @@ export default function MobileMenu() {
     if (element) {
       const headerHeight = 80;
       const elementPosition = element.offsetTop - headerHeight;
-      
+
       window.scrollTo({
         top: elementPosition,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
-      
+
       // Close mobile menu after clicking
-      const offcanvas = document.getElementById('menu-mobile');
+      const offcanvas = document.getElementById("menu-mobile");
       if (offcanvas) {
         const bsOffcanvas = window.bootstrap?.Offcanvas?.getInstance(offcanvas);
         if (bsOffcanvas) {
@@ -54,88 +54,88 @@ export default function MobileMenu() {
       <div className="offcanvas-body inner-mobile-nav">
         <div className="mb-body">
           <ul id="menu-mobile-menu">
-            {pathname === '/' ? (
+            {pathname === "/" ? (
               // Section navigation for home page
               <>
                 <li className="menu-item">
-                  <a 
-                    href="#home" 
+                  <a
+                    href="#home"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('home');
+                      scrollToSection("home");
                     }}
                   >
                     Home
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a 
-                    href="#about" 
+                  <a
+                    href="#about"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('about');
+                      scrollToSection("about");
                     }}
                   >
                     About Us
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a 
-                    href="#team" 
+                  <a
+                    href="#team"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('team');
+                      scrollToSection("team");
                     }}
                   >
                     Our Team
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a 
-                    href="#services" 
+                  <a
+                    href="#services"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('services');
+                      scrollToSection("services");
                     }}
                   >
                     Services
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a 
-                    href="#process" 
+                  <a
+                    href="#process"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('process');
+                      scrollToSection("process");
                     }}
                   >
                     Process
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a 
-                    href="#projects" 
+                  <a
+                    href="#projects"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('projects');
+                      scrollToSection("projects");
                     }}
                   >
                     Projects
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a 
-                    href="#contact" 
+                  <a
+                    href="#contact"
                     className="item-menu-mobile"
                     onClick={(e) => {
                       e.preventDefault();
-                      scrollToSection('contact');
+                      scrollToSection("contact");
                     }}
                   >
                     Contact Us
@@ -145,27 +145,47 @@ export default function MobileMenu() {
             ) : (
               // Regular page navigation for other pages
               <>
-                <li className={`menu-item ${pathname === "/" ? "current-menu-item" : ""}`}>
+                <li
+                  className={`menu-item ${
+                    pathname === "/" ? "current-menu-item" : ""
+                  }`}
+                >
                   <Link href="/" className="item-menu-mobile">
                     Home
                   </Link>
                 </li>
-                <li className={`menu-item ${pathname.includes("/about") ? "current-menu-item" : ""}`}>
+                <li
+                  className={`menu-item ${
+                    pathname.includes("/about") ? "current-menu-item" : ""
+                  }`}
+                >
                   <Link href="/about" className="item-menu-mobile">
                     About Us
                   </Link>
                 </li>
-                <li className={`menu-item ${pathname.includes("/services") ? "current-menu-item" : ""}`}>
+                <li
+                  className={`menu-item ${
+                    pathname.includes("/services") ? "current-menu-item" : ""
+                  }`}
+                >
                   <Link href="/services" className="item-menu-mobile">
                     Services
                   </Link>
                 </li>
-                <li className={`menu-item ${pathname.includes("/projects") ? "current-menu-item" : ""}`}>
+                <li
+                  className={`menu-item ${
+                    pathname.includes("/projects") ? "current-menu-item" : ""
+                  }`}
+                >
                   <Link href="/projects" className="item-menu-mobile">
                     Projects
                   </Link>
                 </li>
-                <li className={`menu-item ${pathname === "/contact" ? "current-menu-item" : ""}`}>
+                <li
+                  className={`menu-item ${
+                    pathname === "/contact" ? "current-menu-item" : ""
+                  }`}
+                >
                   <Link href="/contact" className="item-menu-mobile">
                     Contact Us
                   </Link>

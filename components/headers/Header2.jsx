@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "./Nav";
 import Link from "next/link";
 import Image from "next/image";
+
 export default function Header2() {
   return (
     <header id="header-main" className="header style-2">
@@ -35,26 +36,23 @@ export default function Header2() {
                         try {
                           // Use the correct filename with trailing space
                           const fileName = "/images/home/EBA BROCHURE .pdf";
-
+                          
                           // Simple and reliable download method
                           const link = document.createElement("a");
                           link.href = fileName;
                           link.download = "EBA-Real-Estate-Brochure.pdf";
                           link.target = "_blank";
-
+                          
                           // Add to DOM, click, and remove
                           document.body.appendChild(link);
                           link.click();
                           document.body.removeChild(link);
-
+                          
                           console.log("Download initiated for:", fileName);
                         } catch (error) {
                           console.error("Download failed:", error);
                           // Fallback: open in new tab
-                          window.open(
-                            "/images/home/EBA BROCHURE .pdf",
-                            "_blank"
-                          );
+                          window.open("/images/home/EBA BROCHURE .pdf", "_blank");
                         }
                       }}
                     >
@@ -72,10 +70,10 @@ export default function Header2() {
                       <span className="btn-text-full">Download Brochure</span>
                       <span className="btn-text-short">Download</span>
                     </button>
-
+                    
                     <style jsx>{`
                       .download-btn {
-                        background-color: #ff6b35 !important;
+                        background-color: #FF6B35 !important;
                         color: white !important;
                         border: none !important;
                         border-radius: 5px !important;
@@ -86,48 +84,48 @@ export default function Header2() {
                         align-items: center !important;
                         transition: all 0.3s ease !important;
                       }
-
+                      
                       .download-icon {
                         width: 20px;
                         height: 20px;
                         margin-right: 8px;
                       }
-
+                      
                       .btn-text-short {
                         display: none;
                       }
-
+                      
                       .btn-text-full {
                         display: inline;
                       }
-
+                      
                       @media (max-width: 768px) {
                         .download-btn {
                           padding: 8px 12px !important;
                           font-size: 12px !important;
                         }
-
+                        
                         .download-icon {
                           width: 16px;
                           height: 16px;
                           margin-right: 4px;
                         }
                       }
-
+                      
                       @media (max-width: 480px) {
                         .download-btn {
                           padding: 6px 10px !important;
                           font-size: 11px !important;
                         }
-
+                        
                         .btn-text-full {
                           display: none;
                         }
-
+                        
                         .btn-text-short {
                           display: inline;
                         }
-
+                        
                         .download-icon {
                           width: 14px;
                           height: 14px;
@@ -136,11 +134,10 @@ export default function Header2() {
                       }
                     `}</style>
                   </div>
-                  {/* <DashboardNav color="text_white" /> */}
                   <div className="btn-add">
                     <Link
                       className="tf-btn pd-23"
-                      href={`/contact`}
+                      href="/contact"
                       style={{
                         backgroundColor: "#2C5F41",
                         color: "white",

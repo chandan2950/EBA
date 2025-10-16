@@ -95,7 +95,7 @@ export default function Footer1({ logo = "/images/brands/EBA tm logo.png" }) {
                   <div className="content">
                     <div className="title text-1">Call us</div>
                     <h6>
-                      <a href="#"> +91 9236126874</a>
+                      <a href="#"> +91 9326126874</a>
                     </h6>
                   </div>
                 </div>
