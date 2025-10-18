@@ -69,11 +69,7 @@ export default function Properties() {
                 <h2 className="title split-text effect-right mb-31">
                   <SplitTextAnimation text="View our current property Projects" />
                 </h2>
-                <p className="text-1 split-text split-lines-transform">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  sit amet dapibus justo. Nam nec libero diam. <br />
-                  Pellentesque vel efficitur justo. Ut at ipsum turpis.
-                </p>
+               
               </div>
               {/* <div className="right">
                 <a
