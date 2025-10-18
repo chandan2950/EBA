@@ -8,12 +8,12 @@ const processPhases = [
     color: "#2C5F41",
     steps: [
       "Meeting & Explanation",
-      "Corum Completion", 
+      "Corum Completion",
       "Legal Documents",
       "Tech Presentation",
       "EGM / SGM",
-      "Committee Reports"
-    ]
+      "Committee Reports",
+    ],
   },
   {
     phase: "Management & Agreements",
@@ -22,8 +22,8 @@ const processPhases = [
       "DM Appointment",
       "DM Agreement",
       "Architect Consulting",
-      "Finance Management"
-    ]
+      "Finance Management",
+    ],
   },
   {
     phase: "Approvals & Clearances",
@@ -35,8 +35,8 @@ const processPhases = [
       "Aviation NOC",
       "MOEF / EV",
       "IOD / CC",
-      "RERA Approval"
-    ]
+      "RERA Approval",
+    ],
   },
   {
     phase: "Execution & Delivery",
@@ -48,9 +48,9 @@ const processPhases = [
       "Monitoring",
       "Finishing",
       "OC & Handover",
-      "RERA Closure"
-    ]
-  }
+      "RERA Closure",
+    ],
+  },
 ];
 
 export default function Process() {
@@ -61,14 +61,59 @@ export default function Process() {
           <div className="col-12">
             {/* Header Section */}
             <div className="heading-section text-center gap-30 mb-56">
-              <h2 className="title split-text effect-right fw-5">
+              <h2 className="title split-text effect-right fw-5 process-title">
                 <SplitTextAnimation text="Self-Redevelopment Process" />
               </h2>
-              <p className="text-1 text-color-default wow animate__fadeInUp animate__animated" data-wow-duration="1.5s" data-wow-delay="0s">
-                Our systematic 24-step approach ensures transparency, compliance, and excellence in every redevelopment project.
+              <style jsx>{`
+                .process-title {
+                  word-break: keep-all;
+                  overflow-wrap: break-word;
+                  hyphens: none;
+                }
+
+                @media (max-width: 768px) {
+                  .process-title {
+                    font-size: 28px !important;
+                    line-height: 1.2 !important;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                  }
+                }
+
+                @media (max-width: 480px) {
+                  .process-title {
+                    font-size: 24px !important;
+                    white-space: normal !important;
+                    overflow: visible !important;
+                    text-overflow: unset !important;
+                    word-spacing: -2px;
+                  }
+                }
+
+                @media (max-width: 360px) {
+                  .process-title {
+                    font-size: 22px !important;
+                    word-spacing: -3px;
+                    letter-spacing: -0.5px;
+                  }
+                }
+              `}</style>
+              <p
+                className="text-1 text-color-default wow animate__fadeInUp animate__animated"
+                data-wow-duration="1.5s"
+                data-wow-delay="0s"
+              >
+                Our systematic 24-step approach ensures transparency,
+                compliance, and excellence in every redevelopment project.
               </p>
-              <p className="text-1 text-color-default wow animate__fadeInUp animate__animated" data-wow-duration="1.5s" data-wow-delay="0.1s">
-                From initial consultation to final handover, we guide you through each phase with expertise and dedication.
+              <p
+                className="text-1 text-color-default wow animate__fadeInUp animate__animated"
+                data-wow-duration="1.5s"
+                data-wow-delay="0.1s"
+              >
+                From initial consultation to final handover, we guide you
+                through each phase with expertise and dedication.
               </p>
             </div>
           </div>
@@ -80,29 +125,29 @@ export default function Process() {
             <div className="col-lg-4">
               <div className="content">
                 <div className="heading-section mb-32 gap-30">
-                  <h3 
-                    className="title fw-5 wow animate__fadeInLeft animate__animated" 
-                    data-wow-duration="1.5s" 
+                  <h3
+                    className="title fw-5 wow animate__fadeInLeft animate__animated"
+                    data-wow-duration="1.5s"
                     data-wow-delay="0s"
                     style={{ color: phase.color, fontSize: "28px" }}
                   >
                     Phase {phaseIndex + 1}
                   </h3>
-                  <h4 
-                    className="text-color-heading wow animate__fadeInLeft animate__animated" 
-                    data-wow-duration="1.5s" 
+                  <h4
+                    className="text-color-heading wow animate__fadeInLeft animate__animated"
+                    data-wow-duration="1.5s"
                     data-wow-delay="0.1s"
                     style={{ marginBottom: "20px" }}
                   >
                     {phase.phase}
                   </h4>
-                  <div 
+                  <div
                     style={{
                       width: "60px",
                       height: "4px",
                       background: phase.color,
                       borderRadius: "2px",
-                      marginBottom: "20px"
+                      marginBottom: "20px",
                     }}
                     className="wow animate__fadeInLeft animate__animated"
                     data-wow-duration="1.5s"
@@ -121,10 +166,13 @@ export default function Process() {
                     data-wow-delay={`${0.1 * (stepIndex + 1)}s`}
                     style={{
                       padding: "16px 0",
-                      borderBottom: stepIndex < phase.steps.length - 1 ? "1px solid #eee" : "none"
+                      borderBottom:
+                        stepIndex < phase.steps.length - 1
+                          ? "1px solid #eee"
+                          : "none",
                     }}
                   >
-                    <div 
+                    <div
                       style={{
                         width: "32px",
                         height: "32px",
@@ -136,13 +184,16 @@ export default function Process() {
                         justifyContent: "center",
                         fontSize: "14px",
                         fontWeight: "bold",
-                        flexShrink: 0
+                        flexShrink: 0,
                       }}
                     >
-                      {phaseIndex === 0 ? stepIndex + 1 : 
-                       phaseIndex === 1 ? stepIndex + 7 :
-                       phaseIndex === 2 ? stepIndex + 11 :
-                       stepIndex + 18}
+                      {phaseIndex === 0
+                        ? stepIndex + 1
+                        : phaseIndex === 1
+                        ? stepIndex + 7
+                        : phaseIndex === 2
+                        ? stepIndex + 11
+                        : stepIndex + 18}
                     </div>
                     <span style={{ fontSize: "16px", lineHeight: "1.4" }}>
                       {step}
@@ -157,7 +208,7 @@ export default function Process() {
         {/* Compliance Section */}
         <div className="row">
           <div className="col-12">
-            <div 
+            <div
               className="content text-center wow animate__fadeInUp animate__animated"
               data-wow-duration="1.5s"
               data-wow-delay="0s"
@@ -165,16 +216,28 @@ export default function Process() {
                 background: "linear-gradient(135deg, #2C5F41 0%, #4A7C59 100%)",
                 color: "white",
                 padding: "50px 40px",
-                borderRadius: "20px"
+                borderRadius: "20px",
               }}
             >
               <div className="heading-section mb-32 gap-30">
-                <h3 className="title fw-5" style={{ color: "white", marginBottom: "20px" }}>
+                <h3
+                  className="title fw-5"
+                  style={{ color: "white", marginBottom: "20px" }}
+                >
                   Fully Compliant & Transparent
                 </h3>
-                <p className="text-1" style={{ color: "rgba(255,255,255,0.9)", fontSize: "18px", lineHeight: "1.6" }}>
-                  All processes comply with Maharashtra Cooperative Societies Act, MOFA, RERA, DCPR 2034, and other applicable regulations. 
-                  Every step is documented, monitored, and transparent to all stakeholders throughout the redevelopment journey.
+                <p
+                  className="text-1"
+                  style={{
+                    color: "rgba(255,255,255,0.9)",
+                    fontSize: "18px",
+                    lineHeight: "1.6",
+                  }}
+                >
+                  All processes comply with Maharashtra Cooperative Societies
+                  Act, MOFA, RERA, DCPR 2034, and other applicable regulations.
+                  Every step is documented, monitored, and transparent to all
+                  stakeholders throughout the redevelopment journey.
                 </p>
               </div>
               <a
@@ -183,7 +246,7 @@ export default function Process() {
                 style={{
                   background: "#FF6B35",
                   border: "none",
-                  marginTop: "20px"
+                  marginTop: "20px",
                 }}
               >
                 Start Your Project

@@ -165,7 +165,7 @@ export const agents4 = [
     id: 25,
     imageSrc: "/images/home/jyoti.jpg",
     name: "Jyoti Singh",
-    role: "Account Manager",
+    role: "Accounts Manager",
     wowClass: "",
   },
 ];
