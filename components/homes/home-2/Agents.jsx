@@ -14,12 +14,13 @@ export default function Agents() {
               <h2 className="title split-text effect-right">
                 <SplitTextAnimation text="Raising Standards, Building Futures" />
               </h2>
-              <p className="text-1 split-text split-lines-transform">
-              Expert Beyond Average
-              </p>
-              <p className="text-1 split-text split-lines-transform">
-              Our Official Onboard Team
-              </p>
+              <h2 className="title split-text effect-right">
+                <SplitTextAnimation text="Expert Beyond Average" />
+              </h2>
+              <h2 className="title split-text effect-right">
+                <SplitTextAnimation text="Our Official Onboard Team" />
+              </h2>
+             
             </div>
             <div className="agents-container">
               <style jsx>{`
